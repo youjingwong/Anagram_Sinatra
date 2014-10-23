@@ -1,0 +1,13 @@
+<p>Show a list of anagrams for <%= original_word %> </p>
+
+<CAPTION><EM>Anagram Table</EM></CAPTION>
+<table border="1">
+<% anagram.each do |elem| %>
+  <tr>
+    <td>
+      <%= elem %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
